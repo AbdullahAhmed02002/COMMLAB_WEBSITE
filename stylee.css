@@ -1,0 +1,36 @@
+.header{
+  height: 400px;
+  background-color: #800000;
+}
+
+.container {
+  display: grid;
+  padding: 20px;
+  background-color: #191970;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 20px;
+  height: 2500px;
+  align-content: stretch;
+}
+
+.item {
+  align-self: center;
+  width: 300px;
+  height: 200px;
+  background-color: #3CB371;
+  border: lightsalmon 2px solid;
+}
+
+/*
+.item1 {
+  grid-row:1;
+  grid-column: 1;
+  justify-self: end;
+}
+
+.item2 {
+  grid-row: 2;
+  grid-column: 2;
+  justify-self:start;
+}
